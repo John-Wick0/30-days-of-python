@@ -42,12 +42,4 @@ Each day, I complete exercises that focus on different Python concepts - startin
 - Strengthen problem-solving skills
 - Build consistency by coding daily
 - Document my progress and learn from mistakes
-- Share my journey with others
-
----
-## How to Run the Code
-Clone this repo and run any day's exercises:
-```bash
-git clone https://github.com/John-Wick0/30DaysPython.git
-cd 30DaysPython
-python 01_Day_intro/helloworld.py
+- Share my journey with others 
