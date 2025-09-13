@@ -1,30 +1,10 @@
 import math
 
-# Day 2: 30 Days Python Programming
-#----------------------------------
-# What you need to do for Day 2 exercise that's needed to be done in order to move on
-# - Compare the length of your first name and your last name
-# - Declare 5 as num_one and 4 as num_two
-# - Add num_one and num_two and assign the value to a variable _total
-# - Subtract num_two from num_one and assign the value to a variable _diff
-# - Multiply num_two and num_one and assign the value to a variable _product
-# - Divide num_one by num_two and assign the value to a variable _division
-# - Use modulus division to find num_two divided by num_one and assign the value to a variable _remainder
-# - Calculate num_one to the power of num_two and assign the value to a variable _exp
-# - Find floor division of num_one by num_two and assign the value to a variable _floor_division
-# - The radius of a circle is 30 meters.
-# - Calculate the area of a circle and assign the value to a variable area_of_circle
-# - Take radius as user input and calculate the area.
-# - Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-# - Run help('keywords') in python shell or in your file to check for the reserved words
-
-# Example solution
-
 num_one = 5
 num_two = 4
 
 _total = num_one + num_two
-num_two - num_one
+num_one - num_two
 _diff = num_one - num_two
 product = num_two * num_one
 _division = num_one / num_two
@@ -51,7 +31,7 @@ area, circumference = circle_properties(radius)
 print(f"Area: {area:.2f}")
 int(f"Circumference: {circumference:.2f}")
 
-# Name
+# Example solution
 
 first_name = 'Dr.anibal'
 last_name = 'Lectoring'
@@ -62,6 +42,7 @@ is_married = False
 is_true =  True
 is_light_on = 'Yes'
 skills = ['Python', 'HTML', ]
+
 person_info = {
     'firstname':'',
     'lastname':'',
@@ -69,7 +50,7 @@ person_info = {
     'city':'Defiance'
     }
 
-### Printing the values stored in the variables
+## Printing the values stored in the variables
 
 first_name = input('First name: ')
 print('First name length:', len(first_name))
@@ -96,12 +77,8 @@ print('Married: ', is_married)
 print('Skills: ', skills)
 print('Person information: ', person_info)
 
-
 print(type(first_name))
 print(type(last_name))
-
-
-#-------------------
 
 print(type(country))
 print(type(age))
